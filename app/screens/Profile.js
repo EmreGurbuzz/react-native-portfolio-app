@@ -43,6 +43,10 @@ export class App extends Component {
             </View>
             <Text style={{ textDecorationLine: 'underline', fontWeight: '600', fontSize: 17, marginVertical: 3, alignSelf: 'center' }}>HAKKIMDA</Text>
             <Text style={{}}>  {this.state.ABOUT?.BIO} </Text>
+            <View style={{alignSelf:'center',marginTop:'10%'}}>
+              <Text style={{fontWeight:'600',fontSize:16}} >Telefon: {this.state.ABOUT?.PHONE} </Text>
+              <Text style={{fontWeight:'600',fontSize:16}} >Email  {this.state.ABOUT?.EMAIL} </Text>
+            </View>
           </SafeAreaView>
         </ScrollView>
       )
